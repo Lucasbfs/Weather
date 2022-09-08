@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <!--CONNECT OT STYLE.CSS-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="Search for a City" />
+        <button>
+          <!-- <strong>Search</strong> -->
+          <img src="./images/icons/icons8-search-64.png" alt="search icon" />
+        </button>
+      </div>
+      <div class="weather loading">
+        <div>
+          <h2 class="city">Weather in Wichita</h2>
+          <p class="description">Clear</p>
+          <div>
+            <h2 class="temp">0º C</h2>
+            <h4 class="feels">Feels like:</h4>
+          </div>
+        </div>
+
+        <div>
+          <div class="min-temp-container">
+            <img src="./images/icons/icons8-cold-48.png" alt="low temp icon" />
+            <p class="min-temp">Min temp today is:</p>
+          </div>
+
+          <div class="max-temp-container">
+            <img src="./images/icons/icons8-hot-48.png" alt="high temp icon" />
+            <p class="max-temp">Max temp today is:</p>
+          </div>
+
+          <div class="pressure-container">
+            <img
+              src="./images/icons/icons8-atmospheric-pressure-48.png"
+              alt="pressure icon"
+            />
+            <p class="pressure">Pressure:</p>
+          </div>
+
+          <div class="humidity-container">
+            <img
+              src="./images/icons/icons8-humidity-48.png"
+              alt="humidity icon"
+            />
+            <p class="humidity">Humidity:</p>
+          </div>
+
+          <div class="w-speed-container">
+            <img src="./images/icons/icons8-windsock-48.png" alt="wind-speed" />
+            <p class="wind-speed">Wind speed is about:</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
