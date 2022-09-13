@@ -95,3 +95,9 @@ h4.feels {
   position: fixed;
   visibility: hidden;
 }
+
+@media (max-width: 700px) {
+  * {
+    font-size: 15pt;
+  }
+}
